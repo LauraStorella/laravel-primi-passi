@@ -1,0 +1,19 @@
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+// Main Wrapper (in ogni <section>)
+.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 105px;
+}
+
+
+a {
+  text-decoration: none;
+}
