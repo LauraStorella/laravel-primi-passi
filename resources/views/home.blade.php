@@ -13,6 +13,12 @@
 
   @extends('layouts.app')  {{-- estendo il layout --}}
 
+
+  @section('title')
+    Privacy Policy
+  @endsection
+
+
   @section('content')      {{-- aggiungo contenuto in placeholder @yield --}}
   
   {{-- Main --}}

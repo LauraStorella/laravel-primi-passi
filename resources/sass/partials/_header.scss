@@ -12,12 +12,16 @@ header {
 
     &.logo {
       height: 100%;
-      width: 40%;
+      width: 150px;
     }
 
     &.nav-links {
       height: 100%;
       width: 60%;
+    }
+
+    .logo {
+      width: 150px;
     }
 
     ul li {

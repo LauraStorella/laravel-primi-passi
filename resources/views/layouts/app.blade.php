@@ -21,5 +21,6 @@
   {{-- Footer --}}
   @include('partials.footer')
   
+  <link rel="stylesheet" href="{{asset('js/app.js')}}">
 </body>
 </html>
