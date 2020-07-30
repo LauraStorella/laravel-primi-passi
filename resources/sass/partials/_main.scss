@@ -2,6 +2,14 @@
 main {
   min-height: 100vh ;
   padding: $m_padding;
+
+  section {
+    padding: $section_padding;
+
+    &.jumbo-home {
+      margin-top: 100px;
+    }
+  }
 }
 
 
