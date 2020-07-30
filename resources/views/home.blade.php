@@ -22,19 +22,60 @@
   @section('content')      {{-- aggiungo contenuto in placeholder @yield --}}
   
   {{-- Main --}}
-  <div class="content-wrapper">
-    <main>
-      <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente commodi voluptatum tenetur dolore quo recusandae labore, pariatur alias molestias inventore delectus quam cum laborum? Dignissimos aliquid saepe quidem quia natus.</p>
-  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente commodi voluptatum tenetur dolore quo recusandae labore, pariatur alias molestias inventore delectus quam cum laborum? Dignissimos aliquid saepe quidem quia natus.</p>
-  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente commodi voluptatum tenetur dolore quo recusandae labore, pariatur alias molestias inventore delectus quam cum laborum? Dignissimos aliquid saepe quidem quia natus.</p>
-      </section>
-    </main>
-  </div>
-      
+  {{-- <div class="content-wrapper">
+  </div> --}}
+
+  <main>
+    <section id="jumbotron jumbo-home">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1>Diventa Sviluppatore Web</h1>
+            
+            <p>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</p>
+    
+            <ul>
+              <li>6 mesi di corso intensivo online in diretta</li>
+              <li>Nessuna competenza di programmazione richiesta</li>
+              <li>Siamo certi del tuo successo, altrimenti ti rimborsiamo</li>
+            </ul>
+          </div>
+
+          <div class="col-6">
+            <img src="{{asset('img/pc-black-gif.gif')}}" alt="Videolezione live">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   @endsection
+
+
+
+
+  {{-- NO Bootstrap --}}
+  {{-- <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <main>
+          <section id="jumbotron jumbo-home">
+            <h1>Diventa Sviluppatore Web</h1>
+            
+            <p>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</p>
+    
+            <ul>
+              <li>6 mesi di corso intensivo online in diretta</li>
+              <li>Nessuna competenza di programmazione richiesta</li>
+              <li>Siamo certi del tuo successo, altrimenti ti rimborsiamo</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div> --}}
+      
+  
 
 
   
